@@ -2,7 +2,7 @@ name: Scheduled Sheet Update
 
 on:
   schedule:
-    - cron: '35 14 * * *'  # 9:35 PM (21:35) Vietnam time (UTC+7) = 14:35 UTC
+    - cron: '40 14 * * *'  # 9:40 PM (21:40) Vietnam time (UTC+7) = 14:40 UTC
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
@@ -25,6 +25,12 @@ jobs:
       - name: Create credentials file
         run: |
           echo '${{ secrets.GOOGLE_CREDENTIALS }}' > TestAPI.json
+
+      - name: Show current time
+        run: |
+          date
+          echo "Current UTC time: $(date -u)"
+          echo "Expected run time: 14:40 UTC (21:40 Vietnam time)"
 
       - name: Run optimization script
         run: python main.py
