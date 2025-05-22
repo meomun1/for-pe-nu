@@ -2,7 +2,7 @@ name: Scheduled Sheet Update
 
 on:
   schedule:
-    - cron: '10 14 * * *'  # 21:10 PM Vietnam time (UTC+7) = 14:10 UTC
+    - cron: '20 14 * * *'  # 9:20 PM (21:20) Vietnam time (UTC+7) = 14:20 UTC
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
