@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "appsheet-458010",
+  "private_key_id": "8d6dbb4f14f46a6b54741dfdf9f6e56f72d5ac77",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjxkJyLDZl4JAo\nkEWIZ/n2EpIIIQJwgPhbkHc+OF1f9vxNzvBiVX8Hgl6qqMmpM1aFRqNDLbHB6ihr\nze0dQpxTkK4FjIKjLZ+CcPSSFM8QllOpA160W8WMSSETY0BE77MlvlUXoeD9lXeR\nIz0GSII0massMDfeb4klYB3Q9wGEfwy92XJQ3GkJ1yzdZALymJUGHFt3R3q2f3xe\n8KUYVqFRrvebJFGcEilR31oCirkVlAaAYylm0ViC4L+JRf98qF501B5IRE0SU7yV\nr7z+tbn8JL1AtSpaHywGqKZumzjxHmUcorRBCsAqJ97nlkCs3AcliqZZzKdkNuQj\nYEZNk5hZAgMBAAECggEAAuNtFOi9Ct3uMkZHxlNDICO4CfGpwoSGciL29L93Z3O1\nLnAfDYpBeRyZAScvQKSEUEnBzl5WG2aUUOvAVKWcmTKyMayGj0yE2tRAKVAO+NVr\nOKNeaQ2R9dqXp+kLtKDfnCOiX44o0tVvLD2esWeCTbLaHHzl4gPokM1ZqUT59LVm\nVPoAY0phMSwyKJlKOQwcSHv43qopQl0+rACybShs8lpeSZ0AISLL1wQy0nquVOki\naJsQHpDGsse+PksAn40ekbLsC0nzbhrt/vnA7Jd1+YEZ1hd1iH2Q5vtnlIY4nk4s\niEBnbF8m7cNDw9n9/Qe0Z6Ii7XZQN/IH7Qd5CVlDawKBgQDgTXvnlkVIvsuZMwbt\nVnSQ/Mu0qjl268nZ87P4txgmjJvAXbEK3QtSqTKiQalEdugQxK1N2JxsZn35MpU4\nrbZzxN5wdXMoLUBvVQh711/q0zbMt+CpJ4F2bxjeYPOkjN+TRhTB8RDOvE0ObmGn\nE2MXU/y1s1Z70TqTGLk59mnRYwKBgQC66xF0cRvWKGhXubHEp/16XMIofLj7ONxQ\nAivbLqrfmDp2G+fCv2mNbPnUlLsIZ2stt0ADugKWMvQQV/cK+h4mdGtFT0F/1sij\nisI5XLOhZNyDtKfZBxvxWHG4Mit6uvdHbSRCZF+Jyvu8VFhU3D6NjUp7+sHXWjrq\nJf3RpkcaEwKBgHqmY+ZSqTgJ/FKdMGB/MeZGFS2JFzsL26guNm79z1rk8BXUJYcH\nL7XXhzRqKyCg1Gy23vz+QSqVMLUfD7Gaa3YKZIeh8YI6nE1EdgshzfUd4Y03zsUw\nMP6N6U9QPGnyDh7950PViZdCJ/CIMyWk2D5dUoYYtmWmFx1wG3iyYVJ5AoGBAJDS\nOmbmj/PAwP9fH63HnqwknEY0RDpZFtFirUoYAUpWLs1913ZbSdPKoFKlnbfoMPFt\nrsp0XzayackT7pNxsNSIlOhRfOUoq7GSe+NnwMGGXRgqa3XKfUrkBM/7BxcDLz4H\nAPXzwNYJEDwdeYbeUhToaNJgObm57jWmk97QnvxDAoGBALSNjCLSSgEfuctlkM1A\na6dhfBEfISvU2cI99Fi5SAsZ89IqhA77gp0cNOM6tkTQtYOwTBIJ0i2H/bmxWm2S\nZQThN5/+2Nq1R7lDNCSfk/7YgOO2J0WbgWdrzIp+P+okTdliPmJsfeTVX4iqUNCE\nZ0DtC+bua++CM0wQjnikO0GA\n-----END PRIVATE KEY-----\n",
+  "client_email": "aircompressor@appsheet-458010.iam.gserviceaccount.com",
+  "client_id": "109439685040295030966",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aircompressor%40appsheet-458010.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
