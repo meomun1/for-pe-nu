@@ -8,7 +8,8 @@ from results_manager import ResultsManager
 
 def main():
     """Main function to run the multi-objective optimization"""
-    credentials_file = r'/Users/nguyenphuong/Library/CloudStorage/OneDrive-VietNamNationalUniversity-HCMINTERNATIONALUNIVERSITY/Documents/PYTHON/CODE/APPSHEET/TestAPI.json'
+    # Get credentials file path - works both locally and in GitHub Actions
+    credentials_file = os.getenv('GOOGLE_CREDENTIALS_FILE', 'TestAPI.json')
     sheets_id = "13NryaKgZyiU0I0dV9rVWhWblwRPhRLzMCkFtPJ9_VMo"
     
     print("Starting multi-objective optimization for air compressor scheduling...")

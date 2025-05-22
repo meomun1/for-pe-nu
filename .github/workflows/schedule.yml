@@ -1,0 +1,30 @@
+name: Scheduled Sheet Update
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Runs at 12:00 PM UTC every day
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-sheet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create credentials file
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > TestAPI.json
+
+      - name: Run optimization script
+        run: python main.py
