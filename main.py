@@ -2,6 +2,7 @@
 Main entry point for the Multi-Objective Optimization for Air Compressor Scheduling
 """
 
+import os
 from data_manager import DataManager
 from optimization_approaches import OptimizationApproaches
 from results_manager import ResultsManager
