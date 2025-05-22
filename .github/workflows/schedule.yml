@@ -2,7 +2,7 @@ name: Scheduled Sheet Update
 
 on:
   schedule:
-    - cron: '40 14 * * *'  # 9:40 PM (21:40) Vietnam time (UTC+7) = 14:40 UTC
+    - cron: '0 * * * *'  # Run every hour at minute 0
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
         run: |
           date
           echo "Current UTC time: $(date -u)"
-          echo "Expected run time: 14:40 UTC (21:40 Vietnam time)"
+          echo "This workflow runs every hour"
 
       - name: Run optimization script
         run: python main.py
